@@ -12,4 +12,13 @@ export class UserComponent implements OnInit {
   ngOnInit() {
   }
 
+  
+  onFileChanged(event) {
+    this.selectedFile = event.target.files[0]
+  }
+
+  onUpload() {
+    // upload code goes here
+  }
+
 }
